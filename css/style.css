@@ -1,0 +1,42 @@
+:root{
+    --primary-color: rgb(13, 134, 104); 
+}
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+}
+.container{
+    
+    max-width: 640px;
+    margin: 30px auto; /* O 'auto' coloca o conteudo no meio da pagina*/
+    background-color: aqua;
+    padding: 20px;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+
+
+
+form input{
+    font-size: 24px;
+    height: 40px;
+    padding: 0 20px;
+}
+form input:focus{
+    outline: 2px solid var(--primary-color); /* Cor pra saber onde esta clicando*/
+}
+
+
+.relogio {
+ font-size: 3em; /*Para deixar o cronometro maior*/
+}
+.pausado {
+    color: red; /* Cor do cronometro quando estiver pausado*/
+}
